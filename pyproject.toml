@@ -1,0 +1,15 @@
+[tool]
+name = "secure-file-storage-system"
+version = "0.1.0"
+description = "A secure file storage system that encrypts and decrypts files using AES-256 encryption."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+cryptography = "^39.0.0"
+tkinter = { version = "*", optional = true }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
